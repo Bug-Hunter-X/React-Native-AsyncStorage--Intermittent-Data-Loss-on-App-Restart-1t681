@@ -1,0 +1,1 @@
+This repository demonstrates a bug in React Native's AsyncStorage where data is intermittently lost after the app restarts.  The bug is difficult to reproduce consistently and is likely related to asynchronous operations and data persistence within the AsyncStorage implementation.  The solution offers improved error handling and a retry mechanism to mitigate the data loss.
