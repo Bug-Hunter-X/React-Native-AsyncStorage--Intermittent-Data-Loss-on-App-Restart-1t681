@@ -1,0 +1,1 @@
+This React Native bug manifests when using AsyncStorage to store and retrieve data.  The issue is that occasionally, after the app restarts, data previously stored using AsyncStorage is not retrieved.  This is intermittent and doesn't happen every time the app restarts, making debugging challenging.  The code below demonstrates the storage and retrieval process.
